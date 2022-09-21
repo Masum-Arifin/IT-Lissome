@@ -122,3 +122,11 @@ section {
    flex: none;
 }
 
+.portfolio-item {
+   overflow: hidden;
+   position: relative;
+}
+ .portfolio-item img,
+ .portfolio-item .portfolio-overlay {
+    transition: all 0.4s ease;
+ }
