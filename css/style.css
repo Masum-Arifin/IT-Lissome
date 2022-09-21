@@ -202,3 +202,17 @@ section {
    justify-content: center;
 
 }
+
+.team-member .team-member-img .social-icons a {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   font-size: 24px;
+   color: #fff;
+   border-radius: 100px;
+   margin-left: 4px;
+   margin-right: 4px;
+}
