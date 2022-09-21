@@ -216,3 +216,23 @@ section {
    margin-left: 4px;
    margin-right: 4px;
 }
+
+.team-member .team-member-img .social-icons a:hover {
+   background-color: #fff;
+   color: #E93B81;
+}
+
+.team-member:hover .team-member-img .social-icons {
+   bottom: 0;
+}
+
+.team-member:hover img {
+   transform: translateY(-60px);
+}
+
+#testimonials img {
+   width: 65px;
+   height: 65px;
+   border-radius: 100px;
+   transition: all 0.4s ease;
+}
