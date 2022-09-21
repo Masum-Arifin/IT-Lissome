@@ -143,3 +143,12 @@ section {
    padding: 30px;
    opacity: 0;
 }
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+   color: #fff;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+   opacity: 1;
+}
