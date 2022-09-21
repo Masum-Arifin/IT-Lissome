@@ -263,3 +263,24 @@ section {
 form .form-control {
    border-radius: 0;
 }
+
+form .form-control:focus {
+   box-shadow: none;
+   border-color: #E93B81;
+}
+
+#cta {
+   background-color: #E93B81;
+}
+
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
