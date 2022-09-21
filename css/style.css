@@ -131,7 +131,7 @@ section {
     transition: all 0.4s ease;
  }
 
- .portfolio-overlay {
+.portfolio-overlay {
    position: absolute;
    top: 0;
    left: 0;
@@ -230,6 +230,7 @@ section {
    transform: translateY(-60px);
 }
 
+
 #testimonials img {
    width: 65px;
    height: 65px;
@@ -283,4 +284,23 @@ form .form-control:focus {
    padding-top: 30px;
    padding-bottom: 30px;
    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: #898fa1;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #E93B81;
 }
